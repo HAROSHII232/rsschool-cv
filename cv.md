@@ -41,9 +41,9 @@ function rgb(r, g, b){
 ## Experience
 
 Developed:
-* The site of design studio as part of the training course by HTML Academy [https://haroshii232.github.io/nerds/](https://haroshii232.github.io/nerds/)
-* Personal blog as part of the training course on the YouTube channel BrainsCloud [https://haroshii232.github.io/personal-blog/](https://haroshii232.github.io/personal-blog/)
-* Online store selling cat food as part of the training course by HTML Academy [haroshii232.github.io/cat-energy/](haroshii232.github.io/cat-energy/)
+* [NERDS](https://haroshii232.github.io/nerds/) (the site of design studio as part of the training course by HTML Academy) 
+* [Personal blog](https://haroshii232.github.io/personal-blog/) (personal blog as part of the training course on the YouTube channel BrainsCloud) 
+* [Cat energy](haroshii232.github.io/cat-energy/) (online store selling cat food as part of the training course by HTML Academy) 
 
 ## Education 
 
