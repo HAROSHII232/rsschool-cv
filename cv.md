@@ -45,7 +45,7 @@ Developed:
 * Personal blog as part of the training course on the YouTube channel BrainsCloud [https://haroshii232.github.io/personal-blog/](https://haroshii232.github.io/personal-blog/)
 * Online store selling cat food as part of the training course by HTML Academy [haroshii232.github.io/cat-energy/](haroshii232.github.io/cat-energy/)
 
- ## Education 
+## Education 
 
  * **University:** The Belarusian University of Trade and Economics of Consumer Cooperation, specialty economist-manager
  * **Courses:**
