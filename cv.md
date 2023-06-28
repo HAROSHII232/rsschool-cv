@@ -38,3 +38,20 @@ function rgb(r, g, b){
   return convertToRGB(r) + convertToRGB(g) + convertToRGB(b)
 }
 ```   
+## Experience
+
+Developed:
+* The site of design studio as part of the training course by HTML Academy [https://haroshii232.github.io/nerds/](https://haroshii232.github.io/nerds/)
+* Personal blog as part of the training course on the YouTube channel BrainsCloud [https://haroshii232.github.io/personal-blog/](https://haroshii232.github.io/personal-blog/)
+* Online store selling cat food as part of the training course by HTML Academy [haroshii232.github.io/cat-energy/](haroshii232.github.io/cat-energy/)
+
+ ## Education 
+
+ * **University:** The Belarusian University of Trade and Economics of Consumer Cooperation, specialty economist-manager
+ * **Courses:**
+    + [HTML Academy](htmlacademy.ru)
+    + [JS course by FreeCodeCamp](https://www.freecodecamp.org/)
+  
+## English
+
+**A2** (I have no speaking practice, but I understand well written text and spoken language.)
