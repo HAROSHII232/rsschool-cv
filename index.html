@@ -99,6 +99,19 @@
 
             <section class="section" id="code">
                 <h2 class="section__title">Code</h2>
+                <pre class="pre"><code>function rgb(r, g, b){
+    function convertToRGB(rgbVal) {
+    if (rgbVal > 255) return 'FF'
+    else if (rgbVal &lt; 0) return '00'
+    else
+        return rgbVal
+                    .toUpperCase();
+                    .padStart(2,'0')
+                    .toUpperCase();
+    }
+    return convertToRGB(r) + convertToRGB(g) + convertToRGB(b)
+}                    </code>
+                </pre>
             </section>
             <section class="section" id="projects">
                 <h2 class="section__title">Projects</h2>

@@ -250,3 +250,8 @@ ul {
 .contacts__item:last-child:before {
   background-image: url("assets/svg/discord-logo.svg");
 }
+
+.pre {
+  padding: 0;
+  margin: 0%;
+}
