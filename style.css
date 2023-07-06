@@ -114,6 +114,11 @@ pre {
   border-bottom: 1px solid #672f2f;
 }
 
+.section:last-child,
+.section:nth-last-child(2) {
+  border-bottom: 0;
+}
+
 @media (max-width: 768px) {
   .section {
     width: 100%;
@@ -254,4 +259,32 @@ pre {
 
 .contacts__item:last-child:before {
   background-image: url("assets/svg/discord-logo.svg");
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #829985;
+  padding: 20px;  
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.footer__link {
+  color: #fff;
+  line-height: 45px;
+}
+
+.rss__link {
+  width: 121px;
+  height: 45px;
+  background-image: url("assets/svg/rss-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }

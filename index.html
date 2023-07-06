@@ -102,18 +102,9 @@
 
             <section class="section" id="code">
                 <h2 class="section__title">Code</h2>
-                <pre class="pre"><code>function rgb(r, g, b){
-    function convertToRGB(rgbVal) {
-        if (rgbVal > 255) return 'FF'
-        else if (rgbVal &lt; 0) return '00'
-        else
-            return rgbVal
-                        .toUpperCase();
-                        .padStart(2,'0')
-                        .toUpperCase();
-    }
-    return convertToRGB(r) + convertToRGB(g) + convertToRGB(b)
-}                    </code>
+                <pre class="pre"><code>function greeting() {
+    return "Hello world!"
+}</code>
                 </pre>
             </section>
 
@@ -149,6 +140,9 @@
                         <a class="link" href="https://www.freecodecamp.org/" title="FreeCodeCamp">JS course by
                             FreeCodeCamp</a>
                     </li>
+                    <li class="section__item">
+                        <a class="link" href="https://rs.school/js/" title="RSS">RS School JS course </a>
+                    </li>
                 </ul>
             </section>
 
@@ -167,7 +161,10 @@
 
     <footer class="footer">
         <div class="container">
-
+            <div>© 2023 by <a href="https://github.com/HAROSHII232" class="link footer__link">Haroshii232</a>
+            </div>
+            <a href="https://rs.school/js/" class="rss__link"></a>
+        </div>
         </div>
     </footer>
 </body>
