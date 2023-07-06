@@ -6,20 +6,157 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <title>CV</title>
 </head>
 
 <body>
-    <header>
-        <h1 class="header__name">Ihar Voitau</h1>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#contacts" class="nav__link">Contacts</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#code" class="nav__link">Code</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#courses" class="nav__link">Courses</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">Education</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#english" class="nav__link">English</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
+    <main class="main">
+        <div class="container container-main">
+            <section class="section profile" id="profile">
+                <img class="profile__photo" src="assets/img/avatar.jpg" alt="avatar">
+                <div class="profile__title">
+                    <h1 class="profile__title-main">Igor Voitov</h1>
+                    <h2 class="profile__subtitle">Junior Front-End Developer</h2>
+                </div>
+            </section>
 
+            <section class="section" id="contacts">
+                <h2 class="section__title">Contacts</h2>
+                <ul class="section__list">
+                    <li class="section__item contacts__item">Gomel, Belarus</li>
+                    <li class="section__item contacts__item">Email:
+                        <a class="link" href="mailto:igorgrime@gmail.com" title="email">igorgrime@gmail.com</a>
+                    </li>
+                    <li class="section__item contacts__item">Github:
+                        <a class="link" href="https://github.com/HAROSHII232" title="github">HAROSHII232</a>
+                    </li>
+                    <li class="section__item contacts__item">Telegram:
+                        <a class="link" href="https://t.me/HAROSHII" title="telegram">@HAROSHII</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="about">
+                <h2 class="section__title">About me</h2>
+                <p>
+                    Hi, I like programming. I have a main job and now programming is a hobby for
+                    me. Having started programming for fun, I got very involved. It is very important for me to follow
+                    the path of self-development, and I understand that in such an intensively developing industry like
+                    IT, I can do it every day. I have completed several training projects.
+                </p>
+                <p>
+                    I am ready to absorb information like a sponge and make maximum efforts to achieve my main goal - to
+                    learn a pure JavaScript at a good level, learn the React or Angular library and find work as a
+                    junior frontend developer.
+                </p>
+            </section>
+
+            <section class="section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <ul class="section__list">
+                    <li class="section__item">Web-development: <span>HTML5, CSS3, SASS, Gulp JavaScript</span></li>
+                    <li class="section__item">Version control: <span>GIT, Github</span></li>
+                    <li class="section__item">Graphics: <span>Figma, Photoshop</span></li>
+                </ul>
+            </section>
+
+            <section class="section" id="code">
+                <h2 class="section__title">Code</h2>
+                <pre class="pre"><code>function greeting() {
+    return "Hello world!"
+}</code>
+                </pre>
+            </section>
+
+            <section class="section" id="projects">
+                <h2 class="section__title">Projects</h2>
+                <ul class="section__list">
+                    <li class="section__item">
+                        <a class="link" href="https://haroshii232.github.io/nerds/"
+                            title="The site of design studio">Nerds</a>
+                    </li>
+                    <li class="section__item">
+                        <a class="link" href="https://haroshii232.github.io/personal-blog/"
+                            title="My personal blog">Personal blog</a>
+                    </li>
+                    <li class="section__item">
+                        <a class="link" href="haroshii232.github.io/cat-energy/"
+                            title="online store of goods for animals"> Cat energy</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="courses">
+                <h2 class="section__title">Courses</h2>
+                <ul class="section__list">
+                    <li class="section__item">
+                        <a class="link" href="https://htmlacademy.ru/" title="HTML Academy">HTML Academy</a>
+                    </li>
+                    <li class="section__item">
+                        <a class="link" href="https://www.freecodecamp.org/" title="FreeCodeCamp">JS course by
+                            FreeCodeCamp</a>
+                    </li>
+                    <li class="section__item">
+                        <a class="link" href="https://rs.school/js/" title="RSS">RS School JS course</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="education">
+                <h2 class="section__title">Education</h2>
+                <p> The Belarusian University of Trade and Economics of Consumer Cooperation</p>
+            </section>
+
+            <section class="section" id="english">
+                <h2 class="section__title">English</h2>
+                <p><b>A2</b> (I have no speaking practice, but I understand well written text and spoken language.)</p>
+            </section>
+        </div>
     </main>
 
-    <footer>
-
+    <footer class="footer">
+        <div class="container">
+            <div>
+                © 2023 by <a href="https://github.com/HAROSHII232" class="link footer__link">Haroshii232</a>
+            </div>
+            <a href="https://rs.school/js/" class="rss__link"></a>
+        </div>
     </footer>
 </body>
 
