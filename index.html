@@ -33,6 +33,9 @@
                         <a href="#projects" class="nav__link">Projects</a>
                     </li>
                     <li class="nav__item">
+                        <a href="#courses" class="nav__link">Courses</a>
+                    </li>
+                    <li class="nav__item">
                         <a href="#education" class="nav__link">Education</a>
                     </li>
                     <li class="nav__item">
@@ -44,12 +47,12 @@
     </header>
 
     <main class="main">
-        <div class="container container--main">
-            <section class="section section__profile" id="profile">
-                <img class="section__profile-photo" src="assets/img/avatar.jpg" alt="avatar">
-                <div class="section__profile-title">
-                    <h1 class="section__title-main">Igor Voitov</h1>
-                    <h2 class="section__subtitle">Junior Front-End Developer</h2>
+        <div class="container container-main">
+            <section class="section profile" id="profile">
+                <img class="profile__photo" src="assets/img/avatar.jpg" alt="avatar">
+                <div class="profile__title">
+                    <h1 class="profile__title-main">Igor Voitov</h1>
+                    <h2 class="profile__subtitle">Junior Front-End Developer</h2>
                 </div>
             </section>
 
@@ -68,7 +71,7 @@
                     </li>
                     </li>
                     <li class="section__item contacts__item">Discord:
-                        <a class="link" href="https://discord.gg/" title="discord"></a>
+                        <a class="link" href="https://discordapp.com/users/.haroshii" title="discord">.haroshii</a>
                     </li>
                 </ul>
             </section>
@@ -101,26 +104,63 @@
                 <h2 class="section__title">Code</h2>
                 <pre class="pre"><code>function rgb(r, g, b){
     function convertToRGB(rgbVal) {
-    if (rgbVal > 255) return 'FF'
-    else if (rgbVal &lt; 0) return '00'
-    else
-        return rgbVal
-                    .toUpperCase();
-                    .padStart(2,'0')
-                    .toUpperCase();
+        if (rgbVal > 255) return 'FF'
+        else if (rgbVal &lt; 0) return '00'
+        else
+            return rgbVal
+                        .toUpperCase();
+                        .padStart(2,'0')
+                        .toUpperCase();
     }
     return convertToRGB(r) + convertToRGB(g) + convertToRGB(b)
 }                    </code>
                 </pre>
             </section>
+
             <section class="section" id="projects">
                 <h2 class="section__title">Projects</h2>
+                <ul class="section__list">
+                    <li class="section__item">
+                        <a class="link" href="https://haroshii232.github.io/nerds/" title="The site of design studio">
+                            Nerds
+                        </a>
+                    </li>
+                    <li class="section__item">
+                        <a class="link" href="https://haroshii232.github.io/personal-blog/" title="My personal blog">
+                            Personal blog
+                        </a>
+                    </li>
+                    <li class="section__item">
+                        <a class="link" href="haroshii232.github.io/cat-energy/"
+                            title="online store of goods for animals">
+                            Cat energy
+                        </a>
+                    </li>
+                </ul>
             </section>
+
+            <section class="section" id="courses">
+                <h2 class="section__title">Courses</h2>
+                <ul class="section__list">
+                    <li class="section__item">
+                        <a class="link" href="https://htmlacademy.ru/" title="HTML Academy">HTML Academy</a>
+                    </li>
+                    <li class="section__item">
+                        <a class="link" href="https://www.freecodecamp.org/" title="FreeCodeCamp">JS course by
+                            FreeCodeCamp</a>
+                    </li>
+                </ul>
+            </section>
+
             <section class="section" id="education">
                 <h2 class="section__title">Education</h2>
+                <p> The Belarusian University of Trade and Economics of Consumer Cooperation
+                </p>
             </section>
+
             <section class="section" id="english">
                 <h2 class="section__title">English</h2>
+                <p><b>A2</b> (I have no speaking practice, but I understand well written text and spoken language.)</p>
             </section>
         </div>
     </main>

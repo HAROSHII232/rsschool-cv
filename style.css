@@ -27,12 +27,17 @@ ul {
   padding: 0;
 }
 
+pre {
+  padding: 0;
+  margin: 0%;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
 }
 
-.container--main {
+.container-main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -163,7 +168,7 @@ ul {
 
 /* PROFILE */
 
-.section__profile {
+.profile {
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -171,7 +176,7 @@ ul {
   border-bottom: 15px solid #d7d1c9;
 }
 
-.section__profile-photo {
+.profile__photo {
   width: 200px;
   height: 200px;
 
@@ -179,7 +184,7 @@ ul {
   box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
 }
 
-.section__profile-title {
+.profile__title {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -188,7 +193,7 @@ ul {
 
 }
 
-.section__title-main {
+.profile__title-main {
   position: relative;
   padding: 0;
   margin-bottom: 20px;
@@ -200,7 +205,7 @@ ul {
   word-spacing: 3px;
 }
 
-.section__title-main::after {
+.profile__title-main::after {
   content: "";
   position: absolute;
   bottom: -19px;
@@ -211,7 +216,7 @@ ul {
   background-color: #829985;
 }
 
-.section__subtitle {
+.profile__subtitle {
   margin-top: 20px;
 
   color: #5c5c5c;
@@ -249,9 +254,4 @@ ul {
 
 .contacts__item:last-child:before {
   background-image: url("assets/svg/discord-logo.svg");
-}
-
-.pre {
-  padding: 0;
-  margin: 0%;
 }
