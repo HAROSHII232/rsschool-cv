@@ -134,6 +134,33 @@ ul {
   color: #829985;
 }
 
+.section__item {
+  position: relative;
+
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  padding-left: 30px;
+}
+
+.section__item::before {
+  content: "";
+
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 15px;
+  height: 16px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("assets/svg/list-logo.svg");
+}
+
+.section__item span {
+  color: #829985;
+}
+
 /* PROFILE */
 
 .section__profile {
@@ -196,26 +223,12 @@ ul {
 
 /* CONTACTS */
 
-.contacts__item {
-  position: relative;
-
-  margin: 0;
-  margin-bottom: 10px;
-  padding: 0;
-  padding-left: 30px;
-}
-
-.contacts__item::before {
-  content: "";
-
-  position: absolute;
-  top: 1px;
+.contacts__item:before {
+  top: 3px;
   left: 0px;
-  width: 24px;
-  height: 24px;
 
-  background-size: contain;
-  background-repeat: no-repeat;
+  width: 23px;
+  height: 22px;
 }
 
 .contacts__item:nth-child(1):before {
