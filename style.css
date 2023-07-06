@@ -261,10 +261,6 @@ pre {
   background-image: url("assets/svg/telegram-logo.svg");
 }
 
-.contacts__item:last-child:before {
-  background-image: url("assets/svg/discord-logo.svg");
-}
-
 /* FOOTER */
 
 .footer {
@@ -290,7 +286,7 @@ pre {
 .rss__link {
   width: 121px;
   height: 45px;
-  
+
   background-image: url("assets/svg/rss-logo.svg");
   background-size: contain;
   background-repeat: no-repeat;
